@@ -1,4 +1,4 @@
-!/usr/bin/env bash
+#!/usr/bin/env bash
 
 GH_USER=enerestar
 GH_PATH=$GITHUB_API_TOKEN
