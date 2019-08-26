@@ -5,7 +5,7 @@ GH_PATH=$GITHUB_API_TOKEN
 GH_REPO=homebrew-enerestar
 GH_TARGET=master
 ASSETS_PATH=.
-VERSION=1.0.3
+VERSION=1.0.4
 tar --exclude='./.git' --exclude='./README.md' --exclude="enerestar-${VERSION}.tar.gz" --exclude='./.circleci' -zcvf "enerestar-${VERSION}.tar.gz" .
 
 git add -u
