@@ -2,7 +2,7 @@
 
 GH_USER=enerestar
 GH_PATH=$GITHUB_API_TOKEN
-GH_REPO=homebrew-enerestar
+GH_REPO=enerestar
 GH_TARGET=master
 ASSETS_PATH=.
 VERSION=1.0.4
