@@ -9,8 +9,12 @@ jobs:
 
       - run:
           name: Greeting
-          command: echo Hello, world.
+          command: ./enerestar
 
       - run:
           name: Print the Current Time
           command: date
+
+      - run:
+          name: release
+          command: ./release.sh
